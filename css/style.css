@@ -57,13 +57,12 @@ background-image: url("../images/gradient.jpg");
 .navbar-default .navbar-brand{
     color:white;
     font-size:15px;
-    font-weight:bolder;
 }
 
 
 
 .navbar ul li a:hover{
-    background-color:darkgrey;
+    background-color:red;
 }
 .navbar-default .navar-nav>li>a:hover {
     color:white;
@@ -95,7 +94,6 @@ background-image: url("../images/gradient.jpg");
     color: white;
     text-transform: uppercase;
     line-height: 250%;
-    padding-top:5%;
     padding-bottom:3%;
 }
 
@@ -168,6 +166,12 @@ background-image: url("../images/gradient.jpg");
     
 }
 
+.join .foto:hover{
+    
+    opacity:0.70;
+    filter: alpha (opacity=70);
+    
+}
 
 #img1 {
 	background-image: url("../images/zdj2.jpg");
@@ -214,10 +218,16 @@ background-image: url("../images/gradient.jpg");
     
 }
 
+.contactus p:hover{
+    
+    font-size: 240%;
+    color:black;
+}
+
 /********** MEDIA *************/
 
 
-@media (max-widht:978px){
+@media (max-width:978px){
     
     body{
         padding-top:45px;
@@ -225,7 +235,10 @@ background-image: url("../images/gradient.jpg");
     
     .navbar ul li a {
         margin-left:0px;
-        font-weight: bolder;
+    }
+    
+    .working{
+        background-size:100%;
     }
     
     .join .foto {
